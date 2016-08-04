@@ -1,0 +1,207 @@
+/*基础样式*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	list-style: none;
+	text-decoration: none;
+}
+
+ul li a {
+	text-decoration: none;
+}
+
+.clear {
+	clear: both;
+}
+
+body {
+	font: 12px/150% Arial, Verdana, "\5b8b\4f53";
+	color: #666;
+	background: #fff;
+}
+
+.container {
+	width: 1210px;
+	margin: 0 auto;
+}
+
+
+/*网站导航样式*/
+
+header {
+	border-bottom: 2px #B1191A solid;
+	overflow: hidden;
+}
+
+.jd-nav ul li {
+	float: left;
+	width: 88px;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+}
+
+.jd-nav ul li a {
+	display: inline-block;
+	font: 400 15px/44px "microsoft yahei";
+	font-size: 16px;
+	color: black;
+}
+
+.jd-nav ul li a:hover {
+	color: #b61d1d;
+}
+
+.special {
+	text-align: left !important;
+	width: 210px !important;
+}
+
+.special a {
+	display: block;
+	width: 190px;
+	height: 44px;
+	padding: 0 10px;
+	background: #B1191A;
+	font: 400 15px/44px "microsoft yahei";
+	color: #fff !important;
+	text-decoration: none;
+}
+
+
+/*顶部banner样式*/
+
+.left,
+.middle,
+.right {
+	float: left;
+	padding-bottom: 9999px;
+	margin-bottom: -9999px;
+}
+
+.middle {
+	width: 100%;
+	box-sizing: border-box;
+	padding-top: 11px;
+}
+
+div.middle-inner {
+	margin-left: 210px;
+	margin-right: 250px;
+	background: #ffffff;
+	text-align: center;
+}
+
+div.aq-icon {
+	overflow: hidden;
+}
+
+.left {
+	width: 210px;
+	margin-left: -100%;
+}
+
+.left .left-inner {
+	background: #b61d1d;
+}
+
+.left .item {
+	font-size: 14px;
+	color: #ffffff;
+	height: 31px;
+	line-height: 31px;
+	font-weight: 400;
+	padding: 0 10px;
+	position: relative;
+	border-left: 1px solid #B61D1D;
+	border-bottom: 1px solid #B61D1D;
+	box-sizing: border-box;
+}
+
+.left .item i {
+	position: absolute;
+	right: 8px;
+}
+
+.left .item:hover {
+	color: #B61D1D;
+	background: #f7f7f7;
+}
+
+.right {
+	width: 250px;
+	margin-left: -250px;
+	padding-top: 11px;
+}
+
+.right .news {
+	border: 1px solid gainsboro;
+	height: 165px;
+	border-bottom: none;
+}
+
+.news .news_header {
+	border-bottom: 1px solid gainsboro;
+	padding: 0px 0 0 10px;
+	height: 32px;
+	line-height: 32px;
+}
+
+.news .news_c {
+	height: 120px;
+	padding: 8px 0 0 10px;
+}
+
+.news ul li {
+	height: 24px;
+	line-height: 24px;
+	padding-left: 5px;
+}
+
+.news ul li a {
+	color: grey;
+}
+
+.news ul li a:hover {
+	color: #B61D1D;
+}
+
+.right .order {
+	border-top: none;
+	height: 208px;
+}
+
+.order table {
+	height: 207px;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.order table td {
+	width: 25%;
+	border: 1px solid gainsboro;
+	text-align: center;
+	font-size: 19px;
+	cursor: pointer;
+}
+.order table td:hover{
+	color: #B61D1D;
+}
+.order table td span:first-child{
+	color: #B61D1D;
+}
+
+.order table td span:not(:first-child) {
+	font-size: 1px;
+	display: block;
+	box-sizing: border-box;
+	padding-top:5px ;
+}
+
+.right .pic {
+	margin-top: 5px;
+}
